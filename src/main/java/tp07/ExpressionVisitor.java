@@ -1,19 +1,11 @@
-package tp06;
+package tp07;
 
 public interface ExpressionVisitor<T> {
-
     T visitConstante(Constante constante);
-
-    T visitVariable(ExpressionVariable expressionVariable);
-
+    T visitVariable(ExpressionVariable variable);
     T visitSomme(Somme somme);
-
-    T visitProduit(Produit produit);
-
-    T visitQuotient(Quotient quotient);
-
     T visitDifference(Difference difference);
-
-    T visitFonction(FonctionExpression fonctionExpression);
-    
+    T visitProduit(Produit produit);
+    T visitQuotient(Quotient quotient);
+    T visitFonction(FonctionExpression fonction);
 }

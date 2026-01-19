@@ -1,5 +1,5 @@
-package tp06;
+package tp07;
 
-public abstract class Expression {    
+public abstract class Expression {
     public abstract <T> T accept(ExpressionVisitor<T> visitor);
 }

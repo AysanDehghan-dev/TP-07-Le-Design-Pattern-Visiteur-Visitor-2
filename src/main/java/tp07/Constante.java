@@ -1,4 +1,4 @@
-package tp06;
+package tp07;
 
 public class Constante extends Expression {
     private double valeur;

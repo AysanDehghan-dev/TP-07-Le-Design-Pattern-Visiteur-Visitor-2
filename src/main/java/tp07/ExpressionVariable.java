@@ -1,4 +1,4 @@
-package tp06;
+package tp07;
 
 public class ExpressionVariable extends Expression{
     private String nomVariable;

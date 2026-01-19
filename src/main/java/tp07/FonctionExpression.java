@@ -1,6 +1,6 @@
-package tp06;
+package tp07;
 
-import tp06.fonction.Fonction;
+import tp07.fonction.Fonction;
 
 public class FonctionExpression extends Expression {
     private Fonction fonction;

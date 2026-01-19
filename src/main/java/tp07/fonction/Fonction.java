@@ -1,4 +1,4 @@
-package tp06.fonction;
+package tp07.fonction;
 
 public interface Fonction {
     
